@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ébauche 3</title>
+  <style>
+  #myCanvas {
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    display: block;
+  }
+  </style>
+</head>
+<body>
+<div id="timer">
+  <canvas id="myCanvas" width="800" height="600">Not supported</canvas>
+</div>
+<script src="./Js/main.js"></script>
+<!--script>
+  window.onload = function () {
+    const c = document.getElementById('myCanvas');
+    const ctx = c.getContext('2d');
+    ctx.font = '20px Times';
+    ctx.textAlign = 'center';
+    ctx.fillText('Insérer compteur ici', c.width/2, c.height/2);
+  }
+
+</script>
+<!--script>
+  function appendDiv(content) {
+    const cont = content.toString();
+    const div = document.getElementById('timer');
+    const text = document.createTextNode(content);
+    div.appendChild(text);
+  }
+
+  function replaceDiv(content){
+    const cont = content.toString();
+    const div = document.getElementById('timer');
+    console.log(div.hasChildNodes());
+    if(div.hasChildNodes()){
+      div.childNodes
+    }
+/*    const text = document.createTextNode(cont);
+    div.clear();
+    div.appendChild(text);
+*/
+  }
+  window.onload = function(){
+    //alert('Ok');
+    replaceDiv('Rekt');
+  };
+
+
+  /*/var compt = 10;
+  function test() {
+    const timer = document.getElementById('timer');
+    timer.innerHTML = 'Test';
+  }
+  function displayTimer() {
+    const div = document.getElementById('timer');
+    const content = document.createTextNode(' 10');
+    div.appendChild(content);
+  }
+
+  function timer(){
+    let div = document.getElementById('timer');
+    const content = document.createTextNode(' 10');
+    div.appendChild(content);
+  }
+
+  function go() {
+    test();
+    //setTimeout(timer(), 5000);
+  }
+  //const loaded = setTimeout(go(), 5000);
+  //window.onload = go;*/
+</script-->
+</body>
+</html>

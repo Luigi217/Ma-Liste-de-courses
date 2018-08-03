@@ -1,0 +1,17 @@
+{
+  "name": "Ma_Liste_de_courses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luigi217",
+  "license": "MIT",
+  "xo": {
+    "space": 2,
+    "rules": {
+      "max-len": [
+        "error",
+        80,
+        2
+      ]
+    }
+  }
+}
